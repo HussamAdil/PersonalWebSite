@@ -80,8 +80,8 @@
             </div>
             <div class="mt-4 p-1">
                 <p class="Im-an-full-stack wow animate__slideInUp"   data-wow-duration="1s">
-                  I'm an full stack Web developer, with Bachelor of business degree .
-                  but I'm  more passion about a computer science in general and web technologies specifically ,from Khartoum, Sudan.  
+                  I'm a full stack Web developer, with Bachelor of business degree .
+                  but I'm  more passion about computer science in general and web technologies specifically ,from Khartoum, Sudan.  
                 </p>
             </div>
               <div class="mt-3 p-1 wow animate__slideInUp"   data-wow-duration="1s" >
