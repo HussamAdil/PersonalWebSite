@@ -1,6 +1,6 @@
  body
 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
    
 }
@@ -76,6 +76,7 @@
  {
      color:#fff;
      background: #130f40;
+     padding:80px;
  }
  .intro .big-font-size 
  {
@@ -87,7 +88,7 @@
 }
 .Im-an-full-stack 
 {
-    line-height: 35px;
+    line-height: 30px;
 }
 .intro .btn-warning
  {
@@ -95,6 +96,17 @@
  }
  /* end intro */
 
+ .personal-image 
+ {
+    padding: .50rem;
+    max-width: 100%;
+    height: auto;
+    border-right:2px solid;
+    border-bottom:2px solid;
+    border-left:2px solid;
+    line-height: 10px;
+
+ }
  /* start about */
 
  .about

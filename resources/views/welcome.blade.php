@@ -10,8 +10,11 @@
         <meta name="author" content="Hussam Adil">
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+         
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
         <!-- styles -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="{{asset('css/custom.css')}}">
@@ -27,6 +30,7 @@
 
       </head>
     <body>
+   
     <!-- Start Nabbar -->
     <nav class="navbar navbar-expand-lg p-4   navbar-light bg-light">
         <div class="container " id="pageContent">
@@ -37,10 +41,7 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mr-5">
-            <li class="nav-item">
-                
-              <a class="nav-link nav-link-hover" href="#about"><i class="mr-1  fa fa-user nav-icon " ></i>  About <span class="sr-only">(current)</span></a>
-            </li>
+            
             <li class="nav-item">
               <a class="nav-link nav-link-hover " href="#work"><i class="nav-icon mr-1 fa fa-briefcase" aria-hidden="true"></i>
                 Work</a>
@@ -73,53 +74,39 @@
       <div class="intro">
         <div class="container p-3">
         <div class="p-4 ml-4 ">
-              <p>Hi, my name is</p>
-            <h1 class="big-font-size" data-in-effect="rollIn">Hussam Adil.</h1>
-            <div class="mt-4 p-1 wow animate__slideInUp"   data-wow-duration="1s">
-                <span class="p-2 By-building wow animate__slideInUp"   data-wow-duration="1s">By building web applications, I hope I can make the world a better place for human beings 🙏 .</span>
+          <div class="row">
+            <div class="col-sm-9 p-4">
+              <p>Hello Everyone,I'm <span style="
+                color: #fcbf49;
+            ">Hussam Adil </span> 👋</p>
+              <h3 class="" data-in-effect="rollIn"> Freelance Full Stack Web Developer.  </h3>
+              <p class="Im-an-full-stack wow animate__slideInUp mt-3"   data-wow-duration="1s">
+                
+                Web Developer based in Sudan 🇸🇩.
+
+              I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
+              
+              I graduated from <a  target="_blank" class="university-link text-white" href="https://www.siu-sd.com/">Sudan international University</a>.
+              <div class="mt-3  wow animate__slideInUp"   data-wow-duration="1s" >
+                <a href="#contact-me" class="contact-mebtn btn btn-warning"><i class="fa fa-envelope-open-o"> </i> Contact Me</a>
+            </div> 
+            </p>
             </div>
-            <div class="mt-4 p-1">
-                <p class="Im-an-full-stack wow animate__slideInUp"   data-wow-duration="1s">
-                  I'm a full stack Web developer, with Bachelor of business degree .
-                  but I'm  more passion about computer science in general and web technologies specifically.  
-                </p>
+            <div class="col-sm-3">
+              <img alt="Hussam Adil "  class="text-center  personal-image   wow animate__fadeInDown" data-wow-delay="1s" src="https://i.stack.imgur.com/zYENw.png?s=328&g=1">
+              <hr>
+              <p   class="mt-2 text-center   d-sm-block wow animate__fadeInLeft" data-wow-delay="1s">
+                it's Me 👆
+              </p>
             </div>
-              <div class="mt-3 p-1 wow animate__slideInUp"   data-wow-duration="1s" >
-                  <a href="#contact-me" class="contact-mebtn btn btn-warning">Contact Me</a>
-              </div>
+          </div>
+           
+            
         </div>
       </div>
     </div>
        <!-- end  intro-->
-         <!-- start About -->
-         
-         <div class="about mt-4 mb- p-2" id="about">
-            <div class="  p-4 container">
-                <div class="mb-3">
-                    <span class="h3 section-title">About</span> 
-                </div>
-            <div class="row mt-4 ">
-                <div class=" offset-1 col-sm-7 text  wow animate__slideInUp"   data-wow-duration="1s" >
-                      <p>
-                          Hello! I'm Hussam, a software developer based in Sudan 🇸🇩.
-
-                      I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.</p>
-                      <p> 
-                      My goal is to always build products that provide pixel-perfect, performant experiences.
-
-                      I graduated from <a  target="_blank" class="university-link" href="https://www.siu-sd.com/">Sudan international University</a>.
-                      </p>
-                </div>
-                <div class="col-sm-4 image text-center">
-                    <img alt="Hussam Adil image"  class="text-center  img-thumbnail  wow animate__fadeInDown" data-wow-delay="1s" src="https://i.stack.imgur.com/zYENw.png?s=328&g=1">
-                    <p   class="mt-2 text-center   d-sm-block wow animate__fadeInLeft" data-wow-delay="1s">
-                      it's Me 👆
-                    </p>  
-                  </div>
-            </div>
-         </div>
-        </div>
-           <!-- end  About-->
+        
             <!-- start  work-->
             <div class="work mt-2   p-2" id="work">
               <div class=" p-4 container">
@@ -184,6 +171,7 @@
                     </span>
                 </div>
                 <div class="col-sm-4" >
+                  
                   <img alt="graduation hat"  class=" img-fluid wow animate__jackInTheBox"  src="https://i.postimg.cc/Dz5THXwX/undraw-Graduation-ktn0-1.png">
                 </div>
               </div>
@@ -204,7 +192,8 @@
               </div>
                   <div class="row my-skill-list mt-4">    
                          <p class=" mb-4 col-sm-4 wow animate__slideInDown">PHP</p>
-                          <p class="mb-4  col-sm-4  wow animate__slideInDown" >MYSQL</p>
+                          <p class="mb-4  col-sm-4  wow animate__slideInDown" >MYSQL | SQL SERVER</p>
+ 
                           <p class="mb-4 col-sm-4  wow animate__slideInDown" >LARAVEL</p>
                           <p class=" col-sm-4  wow animate__slideInUp"> HTML/CSS </p>
                           <p class="col-sm-4  wow animate__slideInUp">BOOTSTRAP</p>
@@ -222,7 +211,7 @@
       <div class=" container p-4">
         <div class="mb-3 mt-3">
           <span class="h3 section-title">Contact Me</span>
-          <p class="mt-3 contact-me-text" data-in-effect="rollIn"> My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+          <p class="mt-3 contact-me-text" data-in-effect="rollIn"> My inbox is always open. Whether you have a question or just want to say Hi, I'll try my best to get back to you!
             <div class="row">
             <div class="offset-1 col-sm-6 mt-2"> 
             <form method="POST" action="{{route('sendEmail')}}">
@@ -248,11 +237,7 @@
               @endif
           </form>
         </div>
-          <div class="col-sm-4 mt-2">
-            <span>By scanning this QR-code you can contact me through Whatsapp directly. </span>
-            <p class="mt-2 note"><i class="fa fa-info" ></i> Note :  Please using any QR-code scanning program. </p>
-            <img   alt="qrcode to contact me using whatsapp "  class=" img-fluid  wow animate__slideInUp" src="https://i.postimg.cc/NjYvMB0c/qr-code.png">
-        </div>
+          
       </div>
           <div class=" mt-4 ">
             <div class="mb-3 mt-3">
